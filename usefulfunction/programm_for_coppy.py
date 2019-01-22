@@ -1,0 +1,5 @@
+open_text  = open('tester.txt','r')
+tests = open_text.read()
+open_new_text = open('new_copy','w')
+testering = open_new_text.write(tests)
+print(testering)
